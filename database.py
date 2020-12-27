@@ -9,7 +9,7 @@ class Database:
         self.config = Configuration("config.json").config["database"]
         self.connection = psycopg2.connect("host={0} port={1} user={2} dbname={3} password={4} sslmode={5}"
                                            .format(self.config["host"],
-                                                   self.config["port"]
+                                                   self.config["port"],
                                                    self.config["user"],
                                                    self.config["dbname"],
                                                    self.config["password"],
