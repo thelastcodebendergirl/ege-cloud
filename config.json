@@ -2,9 +2,9 @@
     "database": {
         "host": "ege-cloud-dummy.postgres.database.azure.com",
         "port": "5432",
-        "dbname": "ege-cloud-dummy",
+        "dbname": "postgres",
         "user": "hatice@ege-cloud-dummy",
-        "password": "dummy123*",
+        "password": "Dummy123*",
         "ssl": "require"
     }
 }
