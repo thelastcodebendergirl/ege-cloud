@@ -1,7 +1,7 @@
 {
     "database": {
         "host": "ege-cloud-dummy.postgres.database.azure.com",
-        "dbname": "postgres",
+        "dbname": "ege-cloud-dummy",
         "user": "hatice@ege-cloud-dummy",
         "password": "dummy123*",
         "ssl": "require"
