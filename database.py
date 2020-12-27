@@ -7,7 +7,7 @@ from config import Configuration
 class Database:
     def __init__(self):
         self.config = Configuration("config.json").config["database"]
-        self.connection = psycopg2.connect("host={0} user={1} dbname={2} password={3} sslmode={4}"
+        self.connection = psycopg2.connect("host={0} port={1} user={2} dbname={3} password={4} sslmode={5}"
                                            .format(self.config["host"],
                                                    self.config["user"],
                                                    self.config["dbname"],
